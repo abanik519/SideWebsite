@@ -1,0 +1,115 @@
+body {
+  overflow-x: hidden;
+  background-color: #979dac11;
+}
+
+@font-face {
+  font-family: "mainText";
+  src: url("./Montserrat-Regular.ttf");
+}
+
+@font-face {
+  font-family: themeFont;
+  src: url("./iceland-regular.ttf");
+}
+
+p{
+  font-family: 'mainText';
+  color: white;
+}
+
+li{
+  font-family: 'mainText';
+  color: white;
+}
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.header{
+  width: 100%;
+  padding: 20px 0 20px 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: start;
+  font-size: 70px;
+  background-color: #001845;
+  color: white;
+  font-family: 'themeFont';
+}
+
+.header2{
+  width: 100%;
+  padding: 20px 0 20px 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: start;
+  font-size: 70px;
+  background-color: #979DAC;
+  color: white;
+  font-family: 'themeFont';
+}
+
+.header3{
+  width: 100%;
+  padding: 20px 0 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+  font-size: 70px;
+  background-color: #001845;
+  color: white;
+  font-family: 'themeFont';
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@font-face {
+  font-family: themeFont;
+  src: url("iceland-regular.ttf");
+}
+
+@font-face {
+  font-family: "mainText";
+  src: url("Montserrat-Regular.ttf");
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+

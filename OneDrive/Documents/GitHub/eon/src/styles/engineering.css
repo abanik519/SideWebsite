@@ -1,0 +1,58 @@
+.engineeringContainer{
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #001845;
+}
+
+.flexRow{
+  display: flex;
+  flex-direction: row;
+}
+
+.serviceContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 520px;
+  height: 520px;
+  background-color: #979DAC;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  transition: all .5s ease-in-out;
+}
+
+.imageContainer{
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textContainer{
+  width: 450px;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+  font-size: 20px;
+}
+
+.title{
+  font-size: 25px;
+  width: 450px;
+  height: 30px;
+}
+
+.image{
+  width: 450px;
+  height: 300px;
+}
+

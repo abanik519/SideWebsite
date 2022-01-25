@@ -1,0 +1,939 @@
+@font-face {
+    font-family: themeFont;
+    src: url("./iceland-regular.ttf");
+}
+
+@font-face {
+    font-family: "mainText";
+    src: url("./Montserrat-Regular.ttf");
+}
+
+.collabBuildings {
+    margin-top: 50px;
+    margin-bottom: -27px;
+    display: flex;
+    justify-content: center;
+}
+
+.buildingPicItself {
+    width: 980px;
+    height: 518px;
+}
+
+.collabDarkBox {
+    background-color: #010516;
+    margin-bottom: 22vw;
+    z-index: 5;
+}
+
+.topCollab {
+    width: 100%;
+    color: white;
+    height: 10vw;
+    display: flex;
+    font-size: 150px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: themeFont;
+    src: url("./iceland-regular.ttf");
+}
+
+.twoCollabLogos {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+
+.circleImages {
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    margin: 3vw;
+    transition: all 0.3s ease-in-out;
+}
+
+.circleImages:hover {
+    transform: scale(1.05);
+}
+
+.invisibleCollab {
+    width: 100%;
+    padding-left: 1vw;
+    margin-top: -5vw;
+    color: #ff0000;
+    /* height: 10vw;*/
+    display: flex;
+    font-size: 8vw;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: themeFont;
+    src: url("./iceland-regular.ttf");
+    transform: translateY(23.5vw);
+}
+
+.motherBoard {
+    width: 100%;
+    height: auto;
+    margin-bottom: -23vw;
+    background-color: #010516;
+}
+
+.collabBox {
+    display: flex;
+    justify-content: center;
+    background-color: #010516;
+    flex-direction: column;
+}
+
+.tempCircleDark {
+    height: 20vw;
+    width: 20vw;
+    border-radius: 50%;
+    border: 5px black solid;
+    background-color: white;
+    margin: 3vw;
+}
+
+.collabRow{
+    display: flex;
+    justify-content: center;
+}
+.collabPerson {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 260px;
+    border-radius: 0.5vw;
+    color: white;
+    margin: 1vw;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 20px;
+    font-family: "mainText";
+}
+
+.cloud{
+    position: absolute;
+    left: 1px; 
+    height: 150px;
+    width: auto;
+    transform: translateY(165px);
+}
+
+.cloud2{
+    position: absolute;
+    right: 5px; 
+    height: 150px;
+    width: auto;
+    transform: translateY(15px);
+}
+
+
+.cloud3{
+    position: absolute;
+    left: 1px; 
+    height: 150px;
+    width: auto;
+    transform: translateY(15px);
+    
+}
+
+.cloud4{
+    position: absolute;
+    left: -20px; 
+    height: 150px;
+    width: auto;
+    transform: translateY(-175px);
+}
+
+.cloud5{
+    position: absolute;
+    left: 0px; 
+    height: 200px;
+    width: auto;
+    transform: translateY(-180px);
+}
+
+.cloud6{
+    position: absolute;
+    right: 10px;
+    height: 150px;
+    width: auto;
+    transform: translateY(-125px);
+}
+
+.threeCloud{
+    position: absolute;
+    left: -100px;
+    height: 350px;
+    width: auto;
+    transform: translateY(0px) scaleX(-1);
+
+}
+
+.threeCloud2{
+    position: absolute;
+    right: -0px;
+    height: 250px;
+    width: auto;
+    transform: translateY(400px) scaleX(-1);
+
+}
+.redPointer{
+    position: absolute;
+    right: 145px;
+    width: 200px;
+    height: 200px;
+    transform: translateY(165px);
+}
+.borderRed{
+    border: 5px solid #ff0000;
+}
+
+.borderDarkRed{
+    border: 5px solid #690707;
+}
+
+.borderBlue{
+    border: 5px solid #351aca;
+}
+
+.borderLightBlue{
+    border: 5px solid #0faaf1;
+}
+
+.borderPeach{
+    border: 5px solid #ca7373;
+}
+
+.borderPurple{
+    border: 5px solid #d400ff;
+}
+
+.borderGreen{
+    border: 5px solid #2cf311;
+}
+
+.borderOrange{
+    border: 5px solid #ec561b;
+}
+.collabPerson p{
+    margin-top:0;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.collabDescription{
+    color:#ff0000;
+}
+
+.bridge{
+    width: 1100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.startupTitle{
+    position: absolute;
+    color: #010516;
+    font-size: 120px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.6);
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 1;
+    transform: translateY(-430px);
+    font-family: themeFont;
+    src: url("./iceland-regular.ttf");
+}
+
+.startupBox{
+    width: 1100px;
+    height: 500px;
+    border-radius: 20px;
+    background-color: #ffd1c3;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 1;
+    transform: translateY(-300px);
+}
+
+.startupSlide{
+    height: 400px;
+    width: 1100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-40px, 20px);
+}
+
+.hopperLogo {
+    width: 350px;
+    height: 100px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.hopperLogo:hover{
+    transform: scale(1.05);
+}
+
+.notosLogo{
+    width: 350px;
+    height: 100px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.notosLogo:hover{
+    transform: scale(1.05);
+}
+
+.dataLogo{
+    width: 380px;
+    height: 78px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.dataLogo:hover{
+    transform: scale(1.05);
+}
+
+.haplyLogo{
+    width: 300px;
+    height: 100px;
+    transition: all 0.3s ease-in-out;
+}
+
+.haplyLogo:hover{
+    transform: scale(1.05);
+}
+
+.hopperText {
+    width: 800px;
+    text-align: left;
+    font-size: 25px;
+    margin: 20px;
+    font-family: "mainText";
+    src: url("./Montserrat-Regular.ttf");
+}
+
+.notosText{
+    width: 800px;
+    text-align: left;
+    font-size: 25px;
+    margin-left: 100px;
+    font-family: "mainText";
+    src: url("./Montserrat-Regular.ttf");
+}
+
+.dataText{
+    width: 800px;
+    text-align: left;
+    font-size: 25px;
+    margin-left: 50px;
+    font-family: "mainText";
+    src: url("./Montserrat-Regular.ttf");
+}
+
+.sponsersBox{
+    background-color: #010516;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 60px;
+    padding-top: 50px;
+}
+
+.sponserTitle{
+    color: white;
+    font-size: 150px;
+    margin: auto;
+    text-align: center;
+    font-family: themeFont;
+    src: url("./iceland-regular.ttf");
+    margin-bottom: 50px;
+}
+
+.sponserRow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.holt{
+    width: 450px;
+    height: 200px; 
+    transition: all 0.3s ease-in-out;
+}
+
+.next{
+    width: 420px;
+    height: 150px;
+    transition: all 0.3s ease-in-out;
+}
+
+.tech{
+    width: 350px;
+    height: 260px;
+    transition: all 0.3s ease-in-out;
+}
+
+.holt:hover{
+    transform: scale(1.05);
+}
+
+.next:hover{
+    transform: scale(1.05);
+}
+
+.tech:hover{
+    transform: scale(1.05);
+}
+
+.sponser{
+    width: 260px;
+    height: auto;
+    margin: 15px;
+}
+
+
+@media screen and (max-width: 1800px){
+
+}
+
+@media screen and (max-width: 1200px){
+    .collabBuildings {
+        margin-top: 50px;
+        margin-bottom: -21px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .buildingPicItself {
+        width: 784px;
+        height: 414px;
+    }
+
+    .topCollab {
+        font-size: 100px;
+    }
+
+    .circleImages {
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        margin: 3vw;
+    }
+
+    .collabPerson{
+        font-size: 20px;
+    }
+
+    .cloud, .cloud2, .cloud3, .cloud4, .cloud5, .cloud6, .threeCloud, .threeCloud2{
+        display: none;
+    }
+
+    .redPointer{
+        display: none;
+    }
+
+    .bridge{
+        width: 1000px;
+        transform: translateY(-20px);
+    }
+
+    .startupTitle{
+        font-size: 100px;
+        transform: translateY(-400px);
+    }
+
+    .startupBox{
+        width: 950px;
+        height: 500px;
+    }
+
+    .startupSlide{
+        height: 350px;
+        width: 900px;
+        margin-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transform: translate(-20px, 30px);
+    }
+    
+    .hopperLogo {
+        width: 400px;
+        height: 150px;
+        border-radius: 10px;
+    }
+    
+    .notosLogo{
+        width: 403px;
+        height: 168px;
+        border-radius: 10px;
+    }
+    
+    .dataLogo{
+        width: 420px;
+        height: 78px;
+        border-radius: 10px;
+        margin: 30px;
+    }
+    
+    .hopperText {
+        width: 700px;
+        text-align: left;
+        font-size: 20px;
+        margin: 20px;
+        font-family: "mainText";
+        src: url("./Montserrat-Regular.ttf");
+    }
+    
+    .notosText{
+        width: 700px;
+        text-align: left;
+        font-size: 20px;
+        margin-left: 100px;
+        font-family: "mainText";
+        src: url("./Montserrat-Regular.ttf");
+    }
+    
+    .dataText{
+        width: 700px;
+        text-align: left;
+        font-size: 20px;
+        margin-left: 50px;
+        font-family: "mainText";
+        src: url("./Montserrat-Regular.ttf");
+    }
+
+    .sponserTitle{
+        margin-bottom: 50px;
+    }
+
+    .sponser{
+        width: 215px;
+        height: auto;
+        margin: 15px;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .collabBuildings {
+        margin-top: 50px;
+        margin-bottom: -17px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .buildingPicItself {
+        width: 627px;
+        height: 331px;
+    }
+
+    .topCollab {
+        font-size: 80px;
+    }
+
+    .circleImages {
+        height: 140px;
+        width: 140px;
+        border-radius: 50%;
+        margin: 3vw;
+    }
+
+
+    .collabPerson{
+        font-size: 14px;
+    }
+
+    .bridge{
+        width: 750px;
+        transform: translateY(-100px);
+    }
+
+    .startupTitle{
+        margin-top: 10px;
+        font-size: 80px;
+    }
+
+    .startupBox{
+        width: 760px;
+        height: 440px;
+    }
+
+    .startupSlide{
+        width: 720px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transform: translate(-20px, 20px);
+    }
+    
+    .hopperLogo {
+        width: 300px;
+        height: 113px;
+        border-radius: 10px;
+    }
+    
+    .notosLogo{
+        width: 403px;
+        height: 168px;
+        border-radius: 10px;
+    }
+    
+    .dataLogo{
+        width: 420px;
+        height: 78px;
+        border-radius: 10px;
+        margin: 30px;
+    }
+    
+    .hopperText {
+        width: 600px;
+        text-align: left;
+        font-size: 18px;
+        margin: 20px;
+        font-family: "mainText";
+        src: url("./Montserrat-Regular.ttf");
+    }
+    
+    .notosText{
+        width: 600px;
+        text-align: left;
+        font-size: 18px;
+        margin-left: 100px;
+        font-family: "mainText";
+        src: url("./Montserrat-Regular.ttf");
+    }
+    
+    .dataText{
+        width: 600px;
+        text-align: left;
+        font-size: 18px;
+        margin-left: 50px;
+        font-family: "mainText";
+        src: url("./Montserrat-Regular.ttf");
+    }
+
+    .sponserTitle{
+        font-size: 140px;
+    }
+
+    .holt{
+        width: 450px;
+        height: 236px; 
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .next{
+        width: 401px;
+        height: 140px;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .tech{
+        width: 240px;
+        height: 182px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .sponser{
+        width: 170px;
+        height: auto;
+        margin: 15px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .collabBuildings {
+        margin-top: 50px;
+        margin-bottom: -13px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .buildingPicItself {
+        width: 502px;
+        height: 265px;
+    }
+
+    .topCollab {
+        font-size: 70px;
+    }
+
+    .circleImages {
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        margin: 3vw;
+    }
+
+    
+
+    .collabPerson{
+        font-size: 10px;
+    }
+
+    
+    .bridge{
+        display: none;
+    }
+
+    .startupTitle{
+        font-size: 70px;
+        transform: translateY(0px);
+    }
+
+    .startupBox{
+        width: 480px;
+        margin-top: 400px;
+        height: 350px;
+    }
+
+    .startupSlide{
+        width: 420px;
+        height: 230px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transform: translate(-10px, 30px);
+    }
+    
+    .hopperLogo {
+        width: 200px;
+        height: 75px;
+        border-radius: 10px;
+        margin-top: 30px;
+    }
+    
+    .notosLogo{
+        width: 200px;
+        height: 84px;
+        border-radius: 10px;
+        margin: 10px;
+
+    }
+    
+    .dataLogo{
+        width: 200px;
+        height: 38px;
+        border-radius: 10px;
+        margin: 10px;
+    }
+
+    .haplyLogo{
+        width: 186px;
+        height: 62px;
+    }
+    
+    .hopperText {
+        width: 360px;
+        text-align: left;
+        font-size: 15px;
+        margin: 20px;
+        font-family: "mainText";
+        src: url("./Montserrat-Regular.ttf");
+    }
+    
+    .notosText{
+        width: 330px;
+        text-align: left;
+        font-size: 15px;
+        margin-left: 50px;
+        font-family: "mainText";
+        src: url("./Montserrat-Regular.ttf");
+    }
+    
+    .dataText{
+        width: 330px;
+        text-align: left;
+        font-size: 15px;
+        margin-left: 50px;
+        font-family: "mainText";
+        src: url("./Montserrat-Regular.ttf");
+    }
+
+
+    .sponserTitle{
+        font-size: 100px;
+    }
+
+    .holt{
+        width: 300px;
+        height: 158px; 
+    }
+    
+    .next{
+        width: 281px;
+        height: 98px;
+    }
+    
+    .tech{
+        width: 168px;
+        height: 127px;
+    }
+
+    .sponserRow{
+        flex-direction: column;    
+    }
+}
+
+@media screen and (max-width: 480px){
+    .collabBuildings {
+        margin-top: 50px;
+        margin-bottom: 0px;
+        display: flex; 
+        justify-content: center; 
+    }
+    
+    .buildingPicItself {
+        width: 502px;
+        height: 265px;     
+    }
+
+    .topCollab {
+        font-size: 70px;
+    }
+
+    .circleImages {
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+        margin: 2vw;
+    }
+
+    .collabPerson{
+        margin-left: 30px;
+    }
+
+    .collabPerson{
+        font-size: 8px;
+        padding: 0px;
+    }
+
+    
+    .bridge{
+        display: none;
+    }
+
+    .startupTitle{
+        font-size: 70px;
+        transform: translateY(0px);
+    }
+
+    .startupBox{
+        width: 380px;
+        margin-top: 450px;
+        height: 400px;
+    }
+
+    .startupSlide{
+        width: 350px;
+        height: 280px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transform: translate(-18px, 30px);
+    }
+    
+    .hopperLogo {
+        width: 150px;
+        height: 56px;
+        border-radius: 10px;
+        margin-top: 30px;
+    }
+    
+    .notosLogo{
+        width: 150px;
+        height: 63px;
+        border-radius: 10px;
+        margin: 10px;
+
+    }
+    
+    .dataLogo{
+        width: 150px;
+        height: 29px;
+        border-radius: 10px;
+        margin: 10px;
+    }
+
+    .haplyLogo{
+        width: 140px;
+        height: 47px;
+    }
+    
+    .hopperText {
+        width: 280px;
+        text-align: left;
+        font-size: 15px;
+        margin: 20px;
+        font-family: "mainText";
+        src: url("./Montserrat-Regular.ttf");
+    }
+    
+    .notosText{
+        width: 280px;
+        text-align: left;
+        font-size: 15px;
+        margin-left: 50px;
+        font-family: "mainText";
+        src: url("./Montserrat-Regular.ttf");
+    }
+    
+    
+    
+    .dataText{
+        width: 280px;
+        text-align: left;
+        font-size: 15px;
+        margin-left:30px;
+        font-family: "mainText";
+        src: url("./Montserrat-Regular.ttf");
+    }
+
+
+    .sponserTitle{
+        font-size: 60px;
+        margin-bottom: 30px;
+    }
+
+    .holt{
+        width: 250px;
+        height: 131px; 
+    }
+    
+    .next{
+        width: 281px;
+        height: 98px;
+    }
+    
+    .tech{
+        width: 168px;
+        height: 127px;
+    }
+
+    .sponser{
+        width: 150px;
+        height: auto;
+    }
+}  

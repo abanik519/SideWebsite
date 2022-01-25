@@ -1,0 +1,48 @@
+@font-face {
+    font-family: themeFont;
+    src: url("./iceland-regular.ttf");
+}
+  
+@font-face {
+    font-family: "mainText";
+    src: url("./Montserrat-Regular.ttf");
+}
+
+.capabilitiesContainer{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #979DAC;
+}
+
+.imageRow{
+    display: flex;
+    flex-direction: row;
+}
+
+.images{
+    width: 200px;
+    height: auto;
+    margin: 20px;
+}
+
+.textBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 1000px;
+    margin-bottom: 30px;
+}
+
+.title2{
+    font-size: 30px;
+    width: 1000px;
+    height: 20px;
+}
+
+
+
